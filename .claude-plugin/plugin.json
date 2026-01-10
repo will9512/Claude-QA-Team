@@ -1,7 +1,7 @@
 {
   "name": "qa-team",
-  "description": "A multi-agent QA system for comprehensive code review and quality validation with specialized agents for general QA, cleanup, documentation, API review, performance optimization, and deployment review.",
-  "version": "1.0.0",
+  "description": "A multi-agent QA system for comprehensive code review and quality validation with specialized agents for general QA, cleanup, documentation, API review, performance optimization, UX analysis, and deployment review.",
+  "version": "1.1.0",
   "author": {
     "name": "Daniel Rosehill",
     "email": "public@danielrosehill.com",
@@ -13,31 +13,17 @@
     "url": "https://github.com/danielrosehill/Claude-QA-Team"
   },
   "commands": [
-    "./commands/orchestration/qa-orchestrator.md",
-    "./commands/orchestration/qa-team-lead.md",
-    "./commands/orchestration/documentation-lead.md",
-    "./commands/subagents/general/general-qa.md",
-    "./commands/subagents/general/modular-code.md",
-    "./commands/subagents/general/framework-best-practices.md",
-    "./commands/subagents/cleanup/code-remover.md",
-    "./commands/subagents/cleanup/comments-cleanup.md",
-    "./commands/subagents/cleanup/diagnostic-file-remover.md",
-    "./commands/subagents/documentation/docs-qa.md",
-    "./commands/subagents/documentation/emojis-and-style.md",
-    "./commands/subagents/organisation/code-non-code.md",
-    "./commands/subagents/performance/image-optimization.md",
-    "./commands/subagents/performance/image-compression-cdn.md",
-    "./commands/subagents/api/backend-api-review.md",
-    "./commands/subagents/api/frontend-backend-alignment.md",
-    "./commands/subagents/api/mcp-server-validation.md",
-    "./commands/subagents/other/basic-seo.md",
-    "./commands/subagents/other/responsive-style.md",
-    "./commands/subagents/other/deployment-reviewer.md"
+    "./commands/"
+  ],
+  "agents": [
+    "./agents/"
   ],
   "keywords": [
     "qa",
     "quality-assurance",
     "code-review",
-    "multi-agent"
+    "multi-agent",
+    "ux",
+    "edge-cases"
   ]
 }
