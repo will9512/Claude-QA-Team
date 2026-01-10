@@ -1,4 +1,5 @@
 [![Claude Code View Marketplace](https://img.shields.io/badge/Claude%20Code-View%20Marketplace-blue?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Claude-Code-Plugins)
+[![Claude Code Repos Index](https://img.shields.io/badge/Claude%20Code-Repos%20Index-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Claude-Code-Repos-Index)
 
 ## QA Team Plugin
 
@@ -77,3 +78,7 @@ QA findings are organized in `from_agent/QA/`:
 ## License
 
 This plugin is licensed under the MIT License.
+
+---
+
+For more Claude Code projects, visit my [Claude Code Repos Index](https://github.com/danielrosehill/Claude-Code-Repos-Index).
