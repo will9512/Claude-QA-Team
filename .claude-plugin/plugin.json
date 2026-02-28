@@ -8,15 +8,38 @@
     "url": "https://danielrosehill.com"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/danielrosehill/Claude-QA-Team"
-  },
+  "repository": "https://github.com/will9512/Claude-QA-Team",
   "commands": [
-    "./commands/"
+    "./commands/qa-orchestrator.md",
+    "./commands/qa-team-lead.md",
+    "./commands/documentation-lead.md"
   ],
   "agents": [
-    "./agents/"
+    "./agents/general/general-qa.md",
+    "./agents/general/modular-code.md",
+    "./agents/general/framework-best-practices.md",
+    "./agents/cleanup/code-remover.md",
+    "./agents/cleanup/comments-cleanup.md",
+    "./agents/cleanup/diagnostic-file-remover.md",
+    "./agents/documentation/docs-qa.md",
+    "./agents/documentation/emojis-and-style.md",
+    "./agents/organisation/code-non-code.md",
+    "./agents/performance/caching-optimization.md",
+    "./agents/performance/cost-efficiency.md",
+    "./agents/performance/image-compression-cdn.md",
+    "./agents/performance/image-optimization.md",
+    "./agents/performance/resource-efficiency.md",
+    "./agents/backend/api/backend-api-review.md",
+    "./agents/backend/api/frontend-backend-alignment.md",
+    "./agents/backend/db/database-reviewer.md",
+    "./agents/backend/mcp/mcp-server-validation.md",
+    "./agents/ux/edge-case-identifier.md",
+    "./agents/ux/navigation-breadcrumbs.md",
+    "./agents/ux/user-feedback-messages.md",
+    "./agents/ux/ux-friction.md",
+    "./agents/other/basic-seo.md",
+    "./agents/other/deployment-reviewer.md",
+    "./agents/other/responsive-style.md"
   ],
   "keywords": [
     "qa",
